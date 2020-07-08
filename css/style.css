@@ -1,0 +1,53 @@
+.navbar img {
+	width: 45px;
+}
+.container {
+	padding-top: 100px
+}
+
+.title {
+	text-align: center;
+    padding: 15px;
+    color: #740528;
+}
+
+.card {
+	margin-bottom: 15px;
+}
+.card-img {
+	position: relative;
+	padding: 15px;
+}
+.card-img-hover {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    opacity: 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img:hover .card-img-hover {
+	opacity: 1;
+}
+
+.card-text img {
+	width: 46px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+svg {
+	color: #740528;
+	margin: 8px;
+}
+
+.btn {
+	border-color: #740528;
+}
